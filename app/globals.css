@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.footer-ul>li>a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(45 212 191 / var(--tw-text-opacity))
+    /* #2dd4bf */
+  ;
+  transition-duration: 500ms;
+}
